@@ -49,12 +49,12 @@ public class TodoHelper {
     }
 
     public List<Todo> getTodoList() {
-        List<Todo> todoList = new ArrayList<>();
+        List<Todo> rTodoList = new ArrayList<>();
         if (mTodoList != null & mTodoList.size() > 0) {
             for (Todo todo : mTodoList) {
-                todoList.add(todo);
+                rTodoList.add(todo);
             }
         }
-        return todoList;
+        return rTodoList;
     }
 }
